@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hours Liv</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box__stopwatch">
+            <div class="black_box">
+                    <div class="div_text">Stopwatch</div>
+                <div class="watch">
+                    <div id="watch">00:00:00</div>
+                </div> 
+                <div class="buttons">
+                    <button id="start">Start</button>
+                    <button id="pause">Pause</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="box__hours">
+            <div class="hours">
+                <div id="time"></div>
+            </div>
+        </div>
+        <div class="box__timer">
+            <div class="black_box">
+                    <h2 class="timer">TIMER</h2>
+                    <div class="time-count">00:00:00</div>
+                    <button class="open-popup" >Setting</button>
+                <div class="box_buttons">
+                    <button class="start_timer">Start</button>
+                    <button class="pause_timer">Pause</button>
+                    <button class="reset_timer">Reset</button>
+            </div>
+        </div>
+        </div>
+        <div class="popup-bg">
+            <div class="popup">
+                <a href="#" class="close-popup"><img src="img/5968a2c8f2ed115d40bbe123.png" alt="icon" width="25px" height="25px"></a>
+                <input class="input"  id="period" type="time" step="1">
+                <a href="#" class="start__timer"><button class="button__start">Start</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

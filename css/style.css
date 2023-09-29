@@ -1,0 +1,287 @@
+body {
+  background: black; }
+  body .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 95vh;
+    max-height: 900px;
+    max-width: 1800px; }
+    body .wrapper .box__stopwatch {
+      margin: 7% 0 0 0;
+      width: 24.50%;
+      height: 35.50%;
+      background: white;
+      border-radius: 15%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+      background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+      background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+      -webkit-animation: animate 1.5s linear infinite;
+      animation: animate 1.5s linear infinite;
+      -webkit-box-shadow: 5px 1px 15px 1px #ffeb3d;
+      box-shadow: 5px 1px 15px 1px #ffeb3d;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      body .wrapper .box__stopwatch .black_box {
+        width: 94.3%;
+        height: 92.6%;
+        border-radius: 15%;
+        background: black; }
+        body .wrapper .box__stopwatch .black_box .div_text {
+          margin: 7%;
+          height: 13%;
+          font-size: 220%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-animation: animate 1.5s linear infinite;
+          animation: animate 1.5s linear infinite; }
+        body .wrapper .box__stopwatch .black_box .watch {
+          height: 22%;
+          width: 100%; }
+          body .wrapper .box__stopwatch .black_box .watch #watch {
+            height: 100%;
+            font-size: 315%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+            background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+            background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-animation: animate 1.5s linear infinite;
+            animation: animate 1.5s linear infinite; }
+        body .wrapper .box__stopwatch .black_box .buttons {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: distribute;
+          justify-content: space-around;
+          margin: 10%;
+          width: 80%;
+          height: 12%; }
+          body .wrapper .box__stopwatch .black_box .buttons #start, body .wrapper .box__stopwatch .black_box .buttons #pause, body .wrapper .box__stopwatch .black_box .buttons #reset {
+            width: 30%;
+            height: 95%;
+            background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+            background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+            background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+            -webkit-animation: animate 1.5s linear infinite;
+            animation: animate 1.5s linear infinite; }
+    body .wrapper .box__hours {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      border-radius: 10px;
+      margin: 14.5% 0 0 0;
+      width: 35.5%;
+      height: 13.1%;
+      background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+      background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+      background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+      -webkit-animation: animate 1.5s linear infinite;
+      animation: animate 1.5s linear infinite;
+      -webkit-box-shadow: 5px 1px 15px 1px #ffeb3d;
+      box-shadow: 5px 1px 15px 1px #ffeb3d; }
+      body .wrapper .box__hours .hours {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-radius: 6px;
+        margin: 2%;
+        z-index: 99;
+        width: 96%;
+        height: 80%;
+        background: black; }
+      body .wrapper .box__hours #time {
+        line-height: 85px;
+        font-size: 350%;
+        font-weight: 600;
+        letter-spacing: 1px;
+        background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+        background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+        background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: animate 1.5s linear infinite;
+        animation: animate 1.5s linear infinite; }
+    body .wrapper .box__timer {
+      margin: 7% 0 0 0;
+      width: 24.50%;
+      height: 35.50%;
+      background: white;
+      border-radius: 15%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center;
+      background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+      background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+      background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+      -webkit-animation: animate 1.5s linear infinite;
+      animation: animate 1.5s linear infinite;
+      -webkit-box-shadow: 5px 1px 15px 1px #ffeb3d;
+      box-shadow: 5px 1px 15px 1px #ffeb3d;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      body .wrapper .box__timer .black_box {
+        width: 94.3%;
+        height: 92.6%;
+        border-radius: 15%;
+        background: black; }
+        body .wrapper .box__timer .black_box .timer {
+          background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-animation: animate 1.5s linear infinite;
+          animation: animate 1.5s linear infinite;
+          font-size: 160%; }
+        body .wrapper .box__timer .black_box .time-count {
+          background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-animation: animate 1.5s linear infinite;
+          animation: animate 1.5s linear infinite;
+          font-size: 315%; }
+        body .wrapper .box__timer .black_box .box_buttons {
+          width: 100%;
+          height: 20%; }
+          body .wrapper .box__timer .black_box .box_buttons .start_timer, body .wrapper .box__timer .black_box .box_buttons .pause_timer, body .wrapper .box__timer .black_box .box_buttons .reset_timer, body .wrapper .box__timer .black_box .box_buttons .open-popup {
+            width: 25%;
+            height: 55%;
+            background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+            background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+            background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+            -webkit-animation: animate 1.5s linear infinite;
+            animation: animate 1.5s linear infinite; }
+        body .wrapper .box__timer .black_box .open-popup {
+          margin: 20px;
+          width: 25%;
+          height: 12%;
+          background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+          -webkit-animation: animate 1.5s linear infinite;
+          animation: animate 1.5s linear infinite; }
+
+@-webkit-keyframes animate {
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg); } }
+
+@keyframes animate {
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg); } }
+  body .popup-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    text-align: center; }
+    body .popup-bg .popup {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 600px;
+      padding: 20px;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      padding-top: 60px;
+      background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+      background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+      background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+      -webkit-animation: animate 1.5s linear infinite;
+      animation: animate 1.5s linear infinite;
+      -webkit-box-shadow: 5px 1px 15px 1px #ffeb3d;
+      box-shadow: 5px 1px 15px 1px #ffeb3d; }
+      body .popup-bg .popup input {
+        font-size: 50px;
+        background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+        background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+        background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-animation: animate 1.5s linear infinite;
+        animation: animate 1.5s linear infinite;
+        border: none; }
+      body .popup-bg .popup .close-popup {
+        position: absolute;
+        top: 10px;
+        right: 10px; }
+      body .popup-bg .popup .start__timer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 30px 0 0 0;
+        text-decoration: none; }
+        body .popup-bg .popup .start__timer .button__start {
+          font-size: 30px;
+          background: -webkit-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: -o-linear-gradient(315deg, #14ffe9, #ffeb3d, #ff00e0);
+          background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+          -webkit-background-clip: text;
+          background-clip: text;
+          border: none; }
